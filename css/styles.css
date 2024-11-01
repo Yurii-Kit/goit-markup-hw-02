@@ -40,7 +40,9 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
-
+.contacts {
+  font-style: normal;
+}
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
@@ -71,13 +73,27 @@ a {
 /* #endregion */
 
 /* #region Hero */
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
 .section-hero .hero-button:hover,
 .section-hero .hero-button:focus {
   background: #404bbf;
+  cursor: pointer;
 }
+
 /* #endregion Hero */
 
 /* #region Features */
+
+.features-title {
+}
+
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -98,11 +114,13 @@ a {
 }
 
 .team-title {
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-item {
   background: #fff;
@@ -113,13 +131,12 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #2e2f42;
 }
-.team text {
+.team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 /* #endregion Team */
@@ -127,10 +144,11 @@ a {
 /* #region Portfolio */
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-text {
   font-weight: 500;
