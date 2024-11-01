@@ -91,9 +91,6 @@ a {
 
 /* #region Features */
 
-.features-title {
-}
-
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -134,7 +131,7 @@ a {
 
   color: #2e2f42;
 }
-.team-text {
+.team-subtitle-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
